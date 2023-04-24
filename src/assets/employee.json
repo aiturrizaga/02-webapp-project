@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Jose",
+        "lastname": "Perez Alva",
+        "birthday": "1998-04-26",
+        "phone": "910235200"
+    },
+    {
+        "name": "Maria",
+        "lastname": "Sanchez Luyo",
+        "birthday": "1998-04-26",
+        "phone": "910235200"
+    },
+    {
+        "name": "Roberto",
+        "lastname": "Villaran Galvez",
+        "birthday": "1998-04-26",
+        "phone": "910235200"
+    },
+    {
+        "name": "Rosa",
+        "lastname": "Sanchez Hurtado",
+        "birthday": "1998-04-26",
+        "phone": "910235200"
+    }
+]

@@ -1,0 +1,22 @@
+<h3 class="my-4">Lista de empleados</h3>
+
+<app-employee-save></app-employee-save>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Fecha de Nacimiento</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let employee of employees; let i = index">
+            <th scope="row">{{i + 1}}</th>
+            <td>{{employee.name}}</td>
+            <td>{{employee.lastname}}</td>
+            <td>{{employee.birthday}}</td>
+        </tr>
+    </tbody>
+</table>
